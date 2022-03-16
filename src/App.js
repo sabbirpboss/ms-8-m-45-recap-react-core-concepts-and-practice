@@ -4,7 +4,8 @@ import './App.css';
 function App() {
   const products = [
     { productSerial: '01', name: 'Oil', amount: '1 Litre', price: 150},
-    { productSerial: '02', name: 'Rice', amount: '1 kg', price: 150}
+    { productSerial: '02', name: 'Rice', amount: '1 kg', price: 150},
+    { productSerial: '03', name: 'Date', amount: '1 kg', price: 500}
   ];
   return (
     <div className="App">
